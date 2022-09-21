@@ -1,0 +1,44 @@
+/* 공통 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.inner {
+    width: 1140px; 
+    margin: 0 auto;
+}
+/* 헤더 */
+#header{width: 100%; height: 100px; line-height: 100px; position: relative;}
+.logo{width: 134px; height: 64px; float: left; left: 390px; padding-top: 20px;}
+.h_icon{float: right; padding-top: 10px;}
+.menu{width: 722px; margin: 0 auto; left: 10px; right: 0; position: absolute; top: 10px;}
+.menu>li{width: 100px; float: left; padding-left: 20PX;}
+.menu::after{display: block; content: ""; clear: both;}
+.h_top:after{display: block; content: ""; clear: both;}
+.h_btm{width: 100%; height: 60px; background-color: #231f20; position: absolute; top: 100px;}
+
+/* 메인이미지 */
+#mainimg{width: 100%; height: 870px; background-image: url(../images/background.jpg);
+background-repeat: no-repeat; background-size: cover; background-position: center center;
+
+}
+.box_l{padding-top: 106px;}
+.box_c{float: left; padding-left: 465px; margin-top: -500px}
+.box_r{float: right; margin-top: -600px;}
+.box_c .box_r:after{display: block; content: ""; clear: both;}
+
+/* 푸터 */
+#footer{width: 100%; height: 180px; background-color: #231f20; color: #fff; font-size: 11px;}
+.ft_text{padding-top: 35px;}
+.ft_text>p:nth-child(2){padding-top: 50px; padding-left: 125px;}
+.ft_logo{margin-top: -40px;}
+.ft_icon{float: right; margin-top: -50px;}
+
+
+
